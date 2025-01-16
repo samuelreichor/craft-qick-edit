@@ -10,4 +10,6 @@ use craft\base\Model;
  */
 class Settings extends Model
 {
+    public bool $isGlobalDisabled = false;
+    public bool $targetBlank = false;
 }
